@@ -46,6 +46,7 @@ class ReviewPredictionController extends Controller
             'Horrible packaging, arrived damaged',
             'Really great experience overall',
             'Feels cheap and poorly made',
+            'good'
         ];
 
         $labels = [
@@ -53,6 +54,7 @@ class ReviewPredictionController extends Controller
             'negative', 'positive', 'negative', 'positive', 'negative',
             'positive', 'negative', 'positive', 'negative', 'positive',
             'negative', 'positive', 'negative', 'positive', 'negative',
+            'positive'
         ];
 
         // Train the model
